@@ -28,7 +28,13 @@ async function getFormulaOneDrivers() {
     
     // Selecting Each col-12 class name and iterate through the list
     $('.listing-items--wrapper > .row > .col-12').map((i, el) => {
-        const rank 
+       
+      const rank = $(el).find('.rank').text();
+      const points = $(el).find('.points > .f1-wide--s').text();
+      const firstName = $(el).find('.listing-item--name span:first').text();
+
+
+      console.log(firstName);
 
     });
 
