@@ -1,0 +1,16 @@
+{
+  "name": "webscrapping",
+  "version": "1.0.0",
+  "description": "Scrap information from the app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saint Gabriel",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
+    "node-fetch": "^3.2.4"
+  }
+}
